@@ -6,6 +6,7 @@ const schema = new Schema(
   {
     title: String,
     href: String,
+    magnet_link: String,
     date: String,
     cat: String,
     hasProblem: { type: Boolean, default: false },
